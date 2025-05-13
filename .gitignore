@@ -1,0 +1,23 @@
+﻿# Virtual Environment
+venv/
+env/
+
+# PyTorch/Transformers cache
+.cache/
+cache/
+*.bin
+*.pt
+*.model
+.transformers_cache/
+*cache*/
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+
+# Database
+*.db
+
+# Misc
+.DS_Store
