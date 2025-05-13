@@ -29,32 +29,18 @@ This project is a text moderation system built using **FastAPI** and a pre-train
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/text-moderation-api.git
+git clone  https://github.com/laraib928/text-moderation-api.git
 cd text-moderation-api
 2. Create and activate a virtual environment
-bash
-Copy
-Edit
 python -m venv venv
-# Windows
 venv\Scripts\activate
-# Mac/Linux
-source venv/bin/activate
+
 3. Install dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
 If you don't have a requirements.txt, install manually:
 
-bash
-Copy
-Edit
 pip install fastapi uvicorn transformers
 4. Run the application
-bash
-Copy
-Edit
 uvicorn main:app --reload
 
 Access API Docs
@@ -99,7 +85,7 @@ Output will display all records from the moderation_logs table.
 Notes
 The moderation.db file is created automatically when the app starts.
 
-Use the view_logs.py script to see stored moderation logs.
+Use the check_db.py script to see stored moderation logs.
 
 The AI model may take a few seconds to load the first time.
 
